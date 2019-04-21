@@ -1,0 +1,71 @@
+/* https://palx.jxnblk.com/d6677b */
+* {
+  font-family: 'Vollkorn', serif;
+}
+
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 10vw;
+  /*text-shadow: -3px 0 #cc0011, 0 3px #cc0011, 3px 0 #cc0011, 0 -3px #cc0011;*/
+  text-shadow: 0 0 35px #cc0011, 0 0 40px #cc0011, 0 0 50px #cc0011;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+body {
+  background-color: #d6677b;
+  padding: 1rem;
+}
+
+.wrapper {
+  color: #faf8f9;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  box-shadow: 0 0 35px #cc0011, 0 0 40px #cc0011, 0 0 50px #cc0011;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#santa1 {
+  position: fixed;
+  top: 20%;
+  right: -48px;
+  max-width: 180px;
+}
+
+#santa2 {
+  position: fixed;
+  bottom: 0;
+  max-width: 180px;
+}
+
+#santa3 {
+  position: fixed;
+  top: 40vw;
+  left: -30px;
+  max-width: 180px;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
